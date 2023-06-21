@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    background: linear-gradient(to bottom, lightsteelblue, lightblue);
+    background: lightsteelblue;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 200;
+}
+.buttons {
+    font-family: sans-serif;
+    display: flex;
+    gap: 1.2rem;
+    flex-direction: column;
+    align-items: center;
+}
+.input {
+    padding: .5rem .8rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.error {
+    color: rgb(222, 5, 5);
+    font-weight: 600;
+    display: none;
+    
+}
+.btn {
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    background: white;
+}
+.btn:hover {
+    border: 3px solid white;
+    background: transparent;
+    color: white;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+.gallery {
+    display: none; /*Here we change it by js to display flex*/
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gallery img {
+    width: 350px;
+    height: 350px;
+    border-radius: .5rem;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .3);
+    object-fit: cover;
+}

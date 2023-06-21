@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Photo Gallery</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>Photo Gallery</h1>
+            <h2>Enter the number of photos</h2>
+            <div class="buttons">
+                <div>
+                    <input type="number"  id="input" class="input" value="2" min="1" max="10">
+                    <button class="btn" id="btn">Generate</button>
+
+                </div>
+                <small class="error" id="error">Number should be between 1 and 10</small>
+
+        </div>
+            <div class="gallery" id="gallery">
+                <img src="images/pexels-beyza-efe-8263404.jpg" alt="Image">
+                <img src="images/pexels-beyza-efe-8263404.jpg" alt="Image">
+                <img src="images/pexels-beyza-efe-8263404.jpg" alt="Image">
+                <img src="images/pexels-beyza-efe-8263404.jpg" alt="Image">
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
